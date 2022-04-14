@@ -56,6 +56,7 @@ const oneLetterRightMap = {
   " ": " ",
 };
 
+// https://stackoverflow.com/questions/23013573/swap-key-with-value-in-object
 function swap(json) {
   var ret = {};
   for (var key in json) {
